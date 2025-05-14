@@ -73,7 +73,7 @@ def index():
             uploaded_file.save(file_path)
 
             client = OpenAI(
-                api_key="sk-c61ccca1f2cb4501826ab86d57b69e04",
+                api_key="替换自己的阿里云key",
                 base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
             )
 
